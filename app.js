@@ -60,10 +60,10 @@ function limparCampo() {
     chute.value = '';
 }
 
-// function reiniciarJogo () {
-//     mensagemInicial ();
-//     numero = gerarNumero();
-//     tentativas = 1;
-//     limparCampo ();
-//     document.getElementById('reiniciar').setAttribute('disabled', true);
-// }
+function reiniciarJogo () {
+    mensagemInicial ();
+    numero = gerarNumero();
+    tentativas = 1;
+    limparCampo ();
+    document.getElementById('reiniciar').setAttribute('disabled', true);
+}
