@@ -1,5 +1,5 @@
 let listaDeNumeros = [];
-let numeroLimite = 1000;
+let numeroLimite = 100;
 let numero = gerarNumero();
 let tentativas = 1;
 function alterarCampo (tag, texto) {
