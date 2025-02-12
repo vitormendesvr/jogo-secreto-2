@@ -1,5 +1,5 @@
 let listaDeNumeros = [];
-let numeroLimite = 10;
+let numeroLimite = 100;
 let numero = gerarNumero();
 let tentativas = 1;
 function alterarCampo (tag, texto) {
@@ -17,7 +17,7 @@ function alterarCampo (tag, texto) {
     
 function mensagemInicial () {
 alterarCampo ('h1', 'Bem vindo ao jogo do número secreto');
-alterarCampo ('p', 'chute um número de 1 a 10');
+alterarCampo ('p', 'chute um número entre 1 e 100');
 }
 
 mensagemInicial ();
